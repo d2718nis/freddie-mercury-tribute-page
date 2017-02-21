@@ -157,13 +157,21 @@ p {
 .footer-div a:visited {
 	color: #c18c00; }
 
-#copyright {
+.credits {
 	padding-top: 10px;
 	padding-bottom: 5px;
 	background-color: #ddd; }
 
-#copyright > p {
+.credits-link {
+	margin-bottom: 0;
 	color: #777;
-	margin-bottom: 0px; }
+	text-decoration: none;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s; }
+
+.credits-link:hover {
+	color: #c18c00; }
 
 /*# sourceMappingURL=main.css.map */
