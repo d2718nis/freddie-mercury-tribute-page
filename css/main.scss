@@ -118,15 +118,28 @@ p {
 	}
 }
 #row1 img {
+	max-height: 270px;
 	@include for-min-1016 {
 		margin-top: 90px;
 	}
 }
 #row2 img {
-	max-width: 250px;
+	max-height: 250px;
+	@include for-min-1016 {
+		margin-top: 7.5vw;
+	}
+	@include for-min-1200 {
+		margin-top: 40px;
+	}
 }
 #row3 img {
-	max-width: 230px;
+	max-height: 200px;
+	@include for-min-1016 {
+		margin-top: 7.5vw;
+	}
+	@include for-min-1200 {
+		margin-top: 25px;
+	}
 }
 /* ========== Carousel section ========== */
 .item {

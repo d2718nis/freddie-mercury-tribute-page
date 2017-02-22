@@ -105,15 +105,29 @@ p {
 			margin: auto;
 			margin-top: 45px; } }
 
-@media (min-width: 1016px) {
-	#row1 img {
-		margin-top: 90px; } }
+#row1 img {
+	max-height: 270px; }
+	@media (min-width: 1016px) {
+		#row1 img {
+			margin-top: 90px; } }
 
 #row2 img {
-	max-width: 250px; }
+	max-height: 250px; }
+	@media (min-width: 1016px) {
+		#row2 img {
+			margin-top: 7.5vw; } }
+	@media (min-width: 1200px) {
+		#row2 img {
+			margin-top: 40px; } }
 
 #row3 img {
-	max-width: 230px; }
+	max-height: 200px; }
+	@media (min-width: 1016px) {
+		#row3 img {
+			margin-top: 7.5vw; } }
+	@media (min-width: 1200px) {
+		#row3 img {
+			margin-top: 25px; } }
 
 /* ========== Carousel section ========== */
 .item {
